@@ -1,0 +1,127 @@
+Script started on Tue Mar  7 17:36:56 2024 Mar 7th, 2023
+Command: ./run-assignment.sh 3
+[3J[H[2J
+ASSIGNMENT 3 STARTED - Tue Mar  7 17:36:56 EST 2023
+
+Cleaning environment
+----------------------------
+rm -f assignment-3
+
+Checking environment
+----------------------------
+4b02c9d49c0df28c2b349926e435fb10  ./run-assignment.sh
+5563150d7c5ce86117ab79eef404f79f  assignment-3.c
+Makefile: OK
+
+Assignment 3
+----------------------------
+Usage: ./assignment-3 <num_threads> <max_number>
+Usage: ./assignment-3 <num_threads> <max_number>
+Usage: ./assignment-3 <num_threads> <max_number>
+Calculating primes up to 100 using 1 threads...
+Found 25 prime numbers
+Thread calculated sum 1060 for primes from index 0 to 25
+
+Final sum of all primes: 1060
+
+real	0m0.010s
+user	0m0.002s
+sys	0m0.004s
+Calculating primes up to 100 using 5 threads...
+Found 25 prime numbers
+Thread calculated sum 28 for primes from index 0 to 5
+Thread calculated sum 199 for primes from index 10 to 15
+Thread calculated sum 421 for primes from index 20 to 25
+Thread calculated sum 101 for primes from index 5 to 10
+Thread calculated sum 311 for primes from index 15 to 20
+
+Final sum of all primes: 1060
+
+real	0m0.008s
+user	0m0.003s
+sys	0m0.004s
+Calculating primes up to 1000 using 1 threads...
+Found 168 prime numbers
+Thread calculated sum 76127 for primes from index 0 to 168
+
+Final sum of all primes: 76127
+
+real	0m0.007s
+user	0m0.002s
+sys	0m0.004s
+Calculating primes up to 1000 using 50 threads...
+Found 168 prime numbers
+Thread calculated sum 60 for primes from index 4 to 8
+Thread calculated sum 120 for primes from index 8 to 12
+Thread calculated sum 17 for primes from index 0 to 4
+Thread calculated sum 258 for primes from index 16 to 20
+Thread calculated sum 184 for primes from index 12 to 16
+Thread calculated sum 408 for primes from index 24 to 28
+Thread calculated sum 576 for primes from index 32 to 36
+Thread calculated sum 324 for primes from index 20 to 24
+Thread calculated sum 480 for primes from index 28 to 32
+Thread calculated sum 744 for primes from index 40 to 44
+Thread calculated sum 660 for primes from index 36 to 40
+Thread calculated sum 830 for primes from index 44 to 48
+Thread calculated sum 1012 for primes from index 52 to 56
+Thread calculated sum 1098 for primes from index 56 to 60
+Thread calculated sum 1194 for primes from index 60 to 64
+Thread calculated sum 1298 for primes from index 64 to 68
+Thread calculated sum 1119 for primes from index 72 to 75
+Thread calculated sum 1285 for primes from index 81 to 84
+Thread calculated sum 1408 for primes from index 68 to 72
+Thread calculated sum 928 for primes from index 48 to 52
+Thread calculated sum 1381 for primes from index 87 to 90
+Thread calculated sum 1229 for primes from index 78 to 81
+Thread calculated sum 1169 for primes from index 75 to 78
+Thread calculated sum 1433 for primes from index 90 to 93
+Thread calculated sum 1757 for primes from index 105 to 108
+Thread calculated sum 1553 for primes from index 96 to 99
+Thread calculated sum 1331 for primes from index 84 to 87
+Thread calculated sum 1807 for primes from index 108 to 111
+Thread calculated sum 1959 for primes from index 117 to 120
+Thread calculated sum 1645 for primes from index 99 to 102
+Thread calculated sum 1493 for primes from index 93 to 96
+Thread calculated sum 2011 for primes from index 120 to 123
+Thread calculated sum 1849 for primes from index 111 to 114
+Thread calculated sum 2075 for primes from index 123 to 126
+Thread calculated sum 1915 for primes from index 114 to 117
+Thread calculated sum 2215 for primes from index 129 to 132
+Thread calculated sum 1703 for primes from index 102 to 105
+Thread calculated sum 2269 for primes from index 132 to 135
+Thread calculated sum 2329 for primes from index 135 to 138
+Thread calculated sum 2417 for primes from index 138 to 141
+Thread calculated sum 2155 for primes from index 126 to 129
+Thread calculated sum 2471 for primes from index 141 to 144
+Thread calculated sum 2521 for primes from index 144 to 147
+Thread calculated sum 2579 for primes from index 147 to 150
+Thread calculated sum 2641 for primes from index 150 to 153
+Thread calculated sum 2705 for primes from index 153 to 156
+Thread calculated sum 2785 for primes from index 156 to 159
+Thread calculated sum 2841 for primes from index 159 to 162
+Thread calculated sum 2915 for primes from index 162 to 165
+Thread calculated sum 2971 for primes from index 165 to 168
+
+Final sum of all primes: 76127
+
+real	0m0.004s
+user	0m0.001s
+sys	0m0.004s
+Error: Maximum number must be between 1 and 999999
+
+real	0m0.008s
+user	0m0.002s
+sys	0m0.004s
+Error: Maximum number must be between 1 and 999999
+
+real	0m0.008s
+user	0m0.003s
+sys	0m0.004s
+
+Cleaning environment
+----------------------------
+rm -f assignment-3
+
+ASSIGNMENT 3 COMPLETED - Tue Mar  7 17:36:56 EST 2023
+
+Command exit status: 0

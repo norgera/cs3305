@@ -1,0 +1,154 @@
+Script started on 2023-02-13 23:53:03-05:00 [COMMAND="./run-assignment.sh 2" TERM="xterm-256color" TTY="/dev/pts/194" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 2 STARTED - Mon 13 Feb 2023 11:53:03 PM EST
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+Checking environment
+----------------------------
+846ec3b283736bf8a0c1d7065e6d8de3  ./run-assignment.sh
+3e7290335ae626ae27e0dc28dc338edd  assignment-2.c
+Makefile: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/norgera/3305/Assignment-2'
+gcc -o assignment-2 assignment-2.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/norgera/3305/Assignment-2'
+
+Assignment 2
+----------------------------
+
+Your integers are 1234 5678
+Parent (PID 857129): created child (PID 857130)
+
+###
+# Calculating X
+###
+Parent (PID 857129): Sending 12 to child
+Parent (PID 857129): Sending 56 to child
+      Child (PID 857130): Received 12 from parent
+      Child (PID 857130): Received 56 from parent
+      Child (PID 857130): Sending 672 to parent
+Parent (PID 857129): Received 672 from child
+
+###
+# Calculating Y
+###
+Parent (PID 857129): Sending 12 to child
+Parent (PID 857129): Sending 78 to child
+      Child (PID 857130): Received 12 from parent
+      Child (PID 857130): Received 78 from parent
+      Child (PID 857130): Sending 936 to parent
+Parent (PID 857129): Received 936 from child
+Parent (PID 857129): Sending 34 to child
+      Child (PID 857130): Received 34 from parent
+Parent (PID 857129): Sending 56 to child
+      Child (PID 857130): Received 56 from parent
+      Child (PID 857130): Sending 1904 to parent
+Parent (PID 857129): Received 1904 from child
+
+###
+# Calculating Z
+###
+Parent (PID 857129): Sending 34 to child
+      Child (PID 857130): Received 34 from parent
+Parent (PID 857129): Sending 78 to child
+      Child (PID 857130): Received 78 from parent
+      Child (PID 857130): Sending 2652 to parent
+Parent (PID 857129): Received 2652 from child
+
+1234*5678 == 6720000 + 284000 + 2652 === 7006652
+
+Your integers are 9999 9999
+Parent (PID 857131): created child (PID 857132)
+
+###
+# Calculating X
+###
+Parent (PID 857131): Sending 99 to child
+Parent (PID 857131): Sending 99 to child
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Sending 9801 to parent
+Parent (PID 857131): Received 9801 from child
+
+###
+# Calculating Y
+###
+Parent (PID 857131): Sending 99 to child
+Parent (PID 857131): Sending 99 to child
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Sending 9801 to parent
+Parent (PID 857131): Received 9801 from child
+      Child (PID 857132): Received 99 from parent
+Parent (PID 857131): Sending 99 to child
+Parent (PID 857131): Sending 99 to child
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Sending 9801 to parent
+Parent (PID 857131): Received 9801 from child
+
+###
+# Calculating Z
+###
+Parent (PID 857131): Sending 99 to child
+Parent (PID 857131): Sending 99 to child
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Received 99 from parent
+      Child (PID 857132): Sending 9801 to parent
+Parent (PID 857131): Received 9801 from child
+
+9999*9999 == 98010000 + 1960200 + 9801 === 99980001
+
+Your integers are 1000 1000
+Parent (PID 857133): created child (PID 857134)
+
+###
+# Calculating X
+###
+Parent (PID 857133): Sending 10 to child
+Parent (PID 857133): Sending 10 to child
+      Child (PID 857134): Received 10 from parent
+      Child (PID 857134): Received 10 from parent
+      Child (PID 857134): Sending 100 to parent
+Parent (PID 857133): Received 100 from child
+
+###
+# Calculating Y
+###
+Parent (PID 857133): Sending 10 to child
+Parent (PID 857133): Sending 0 to child
+      Child (PID 857134): Received 10 from parent
+      Child (PID 857134): Received 0 from parent
+      Child (PID 857134): Sending 0 to parent
+Parent (PID 857133): Received 0 from child
+Parent (PID 857133): Sending 0 to child
+      Child (PID 857134): Received 0 from parent
+Parent (PID 857133): Sending 10 to child
+      Child (PID 857134): Received 10 from parent
+      Child (PID 857134): Sending 0 to parent
+Parent (PID 857133): Received 0 from child
+
+###
+# Calculating Z
+###
+Parent (PID 857133): Sending 0 to child
+      Child (PID 857134): Received 0 from parent
+Parent (PID 857133): Sending 0 to child
+      Child (PID 857134): Received 0 from parent
+      Child (PID 857134): Sending 0 to parent
+Parent (PID 857133): Received 0 from child
+
+1000*1000 == 1000000 + 0 + 0 === 1000000
+
+Cleaning environment
+----------------------------
+rm -f assignment-2
+
+ASSIGNMENT 2 COMPLETED - Mon 13 Feb 2023 11:53:03 PM EST
+
+Script done on 2023-02-13 23:53:03-05:00 [COMMAND_EXIT_CODE="0"]

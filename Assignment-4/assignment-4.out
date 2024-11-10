@@ -1,0 +1,457 @@
+Script started on 2023-03-21 22:27:28-04:00 [COMMAND="./run-assignment.sh 4" TERM="xterm-256color" TTY="/dev/pts/310" COLUMNS="80" LINES="24"]
+[H[2J[3J
+ASSIGNMENT 4 STARTED - Tue 21 Mar 2023 10:27:29 PM EDT
+
+Cleaning environment
+----------------------------
+rm -f assignment-4
+
+Checking environment
+----------------------------
+c349fde53687117c81315563aedb1c09  ./run-assignment.sh
+73f900271477b03076f0deea66893848  assignment-4.c
+Makefile: OK
+assignment-4-input.csv: OK
+
+Building environment
+----------------------------
+make all
+make[1]: Entering directory '/home/norgera/3305/Assignment-4'
+gcc -o assignment-4 assignment-4.c -Wall -Wpedantic -Wextra -std=gnu17
+make[1]: Leaving directory '/home/norgera/3305/Assignment-4'
+
+Assignment 4
+----------------------------
+
+-- Invalid parameters (0) --
+Insufficient arguments!
+
+-- Invalid parameters (4+) --
+Invalid algorithm parameter!
+
+-- Invalid filename --
+First Come First Served
+Failed to open file
+
+-- First Come First Served --
+First Come First Served
+T0 : P0 - Burst left  3, Wait time  0, Turnaround time  3
+T1 : P0 - Burst left  2, Wait time  0, Turnaround time  3
+T2 : P0 - Burst left  1, Wait time  0, Turnaround time  3
+T3 : P1 - Burst left  8, Wait time  3, Turnaround time 11
+T4 : P1 - Burst left  7, Wait time  3, Turnaround time 11
+T5 : P1 - Burst left  6, Wait time  3, Turnaround time 11
+T6 : P1 - Burst left  5, Wait time  3, Turnaround time 11
+T7 : P1 - Burst left  4, Wait time  3, Turnaround time 11
+T8 : P1 - Burst left  3, Wait time  3, Turnaround time 11
+T9 : P1 - Burst left  2, Wait time  3, Turnaround time 11
+T10 : P1 - Burst left  1, Wait time  3, Turnaround time 11
+T11 : P2 - Burst left  1, Wait time 11, Turnaround time 12
+T12 : P3 - Burst left  4, Wait time 12, Turnaround time 16
+T13 : P3 - Burst left  3, Wait time 12, Turnaround time 16
+T14 : P3 - Burst left  2, Wait time 12, Turnaround time 16
+T15 : P3 - Burst left  1, Wait time 12, Turnaround time 16
+T16 : P4 - Burst left 12, Wait time 16, Turnaround time 28
+T17 : P4 - Burst left 11, Wait time 16, Turnaround time 28
+T18 : P4 - Burst left 10, Wait time 16, Turnaround time 28
+T19 : P4 - Burst left  9, Wait time 16, Turnaround time 28
+T20 : P4 - Burst left  8, Wait time 16, Turnaround time 28
+T21 : P4 - Burst left  7, Wait time 16, Turnaround time 28
+T22 : P4 - Burst left  6, Wait time 16, Turnaround time 28
+T23 : P4 - Burst left  5, Wait time 16, Turnaround time 28
+T24 : P4 - Burst left  4, Wait time 16, Turnaround time 28
+T25 : P4 - Burst left  3, Wait time 16, Turnaround time 28
+T26 : P4 - Burst left  2, Wait time 16, Turnaround time 28
+T27 : P4 - Burst left  1, Wait time 16, Turnaround time 28
+T28 : P5 - Burst left 19, Wait time 28, Turnaround time 47
+T29 : P5 - Burst left 18, Wait time 28, Turnaround time 47
+T30 : P5 - Burst left 17, Wait time 28, Turnaround time 47
+T31 : P5 - Burst left 16, Wait time 28, Turnaround time 47
+T32 : P5 - Burst left 15, Wait time 28, Turnaround time 47
+T33 : P5 - Burst left 14, Wait time 28, Turnaround time 47
+T34 : P5 - Burst left 13, Wait time 28, Turnaround time 47
+T35 : P5 - Burst left 12, Wait time 28, Turnaround time 47
+T36 : P5 - Burst left 11, Wait time 28, Turnaround time 47
+T37 : P5 - Burst left 10, Wait time 28, Turnaround time 47
+T38 : P5 - Burst left  9, Wait time 28, Turnaround time 47
+T39 : P5 - Burst left  8, Wait time 28, Turnaround time 47
+T40 : P5 - Burst left  7, Wait time 28, Turnaround time 47
+T41 : P5 - Burst left  6, Wait time 28, Turnaround time 47
+T42 : P5 - Burst left  5, Wait time 28, Turnaround time 47
+T43 : P5 - Burst left  4, Wait time 28, Turnaround time 47
+T44 : P5 - Burst left  3, Wait time 28, Turnaround time 47
+T45 : P5 - Burst left  2, Wait time 28, Turnaround time 47
+T46 : P5 - Burst left  1, Wait time 28, Turnaround time 47
+T47 : P6 - Burst left 15, Wait time 47, Turnaround time 62
+T48 : P6 - Burst left 14, Wait time 47, Turnaround time 62
+T49 : P6 - Burst left 13, Wait time 47, Turnaround time 62
+T50 : P6 - Burst left 12, Wait time 47, Turnaround time 62
+T51 : P6 - Burst left 11, Wait time 47, Turnaround time 62
+T52 : P6 - Burst left 10, Wait time 47, Turnaround time 62
+T53 : P6 - Burst left  9, Wait time 47, Turnaround time 62
+T54 : P6 - Burst left  8, Wait time 47, Turnaround time 62
+T55 : P6 - Burst left  7, Wait time 47, Turnaround time 62
+T56 : P6 - Burst left  6, Wait time 47, Turnaround time 62
+T57 : P6 - Burst left  5, Wait time 47, Turnaround time 62
+T58 : P6 - Burst left  4, Wait time 47, Turnaround time 62
+T59 : P6 - Burst left  3, Wait time 47, Turnaround time 62
+T60 : P6 - Burst left  2, Wait time 47, Turnaround time 62
+T61 : P6 - Burst left  1, Wait time 47, Turnaround time 62
+T62 : P7 - Burst left 17, Wait time 62, Turnaround time 79
+T63 : P7 - Burst left 16, Wait time 62, Turnaround time 79
+T64 : P7 - Burst left 15, Wait time 62, Turnaround time 79
+T65 : P7 - Burst left 14, Wait time 62, Turnaround time 79
+T66 : P7 - Burst left 13, Wait time 62, Turnaround time 79
+T67 : P7 - Burst left 12, Wait time 62, Turnaround time 79
+T68 : P7 - Burst left 11, Wait time 62, Turnaround time 79
+T69 : P7 - Burst left 10, Wait time 62, Turnaround time 79
+T70 : P7 - Burst left  9, Wait time 62, Turnaround time 79
+T71 : P7 - Burst left  8, Wait time 62, Turnaround time 79
+T72 : P7 - Burst left  7, Wait time 62, Turnaround time 79
+T73 : P7 - Burst left  6, Wait time 62, Turnaround time 79
+T74 : P7 - Burst left  5, Wait time 62, Turnaround time 79
+T75 : P7 - Burst left  4, Wait time 62, Turnaround time 79
+T76 : P7 - Burst left  3, Wait time 62, Turnaround time 79
+T77 : P7 - Burst left  2, Wait time 62, Turnaround time 79
+T78 : P7 - Burst left  1, Wait time 62, Turnaround time 79
+T79 : P8 - Burst left  3, Wait time 79, Turnaround time 82
+T80 : P8 - Burst left  2, Wait time 79, Turnaround time 82
+T81 : P8 - Burst left  1, Wait time 79, Turnaround time 82
+T82 : P9 - Burst left 18, Wait time 82, Turnaround time 100
+T83 : P9 - Burst left 17, Wait time 82, Turnaround time 100
+T84 : P9 - Burst left 16, Wait time 82, Turnaround time 100
+T85 : P9 - Burst left 15, Wait time 82, Turnaround time 100
+T86 : P9 - Burst left 14, Wait time 82, Turnaround time 100
+T87 : P9 - Burst left 13, Wait time 82, Turnaround time 100
+T88 : P9 - Burst left 12, Wait time 82, Turnaround time 100
+T89 : P9 - Burst left 11, Wait time 82, Turnaround time 100
+T90 : P9 - Burst left 10, Wait time 82, Turnaround time 100
+T91 : P9 - Burst left  9, Wait time 82, Turnaround time 100
+T92 : P9 - Burst left  8, Wait time 82, Turnaround time 100
+T93 : P9 - Burst left  7, Wait time 82, Turnaround time 100
+T94 : P9 - Burst left  6, Wait time 82, Turnaround time 100
+T95 : P9 - Burst left  5, Wait time 82, Turnaround time 100
+T96 : P9 - Burst left  4, Wait time 82, Turnaround time 100
+T97 : P9 - Burst left  3, Wait time 82, Turnaround time 100
+T98 : P9 - Burst left  2, Wait time 82, Turnaround time 100
+T99 : P9 - Burst left  1, Wait time 82, Turnaround time 100
+T100 : P10 - Burst left 17, Wait time 100, Turnaround time 117
+T101 : P10 - Burst left 16, Wait time 100, Turnaround time 117
+T102 : P10 - Burst left 15, Wait time 100, Turnaround time 117
+T103 : P10 - Burst left 14, Wait time 100, Turnaround time 117
+T104 : P10 - Burst left 13, Wait time 100, Turnaround time 117
+T105 : P10 - Burst left 12, Wait time 100, Turnaround time 117
+T106 : P10 - Burst left 11, Wait time 100, Turnaround time 117
+T107 : P10 - Burst left 10, Wait time 100, Turnaround time 117
+T108 : P10 - Burst left  9, Wait time 100, Turnaround time 117
+T109 : P10 - Burst left  8, Wait time 100, Turnaround time 117
+T110 : P10 - Burst left  7, Wait time 100, Turnaround time 117
+T111 : P10 - Burst left  6, Wait time 100, Turnaround time 117
+T112 : P10 - Burst left  5, Wait time 100, Turnaround time 117
+T113 : P10 - Burst left  4, Wait time 100, Turnaround time 117
+T114 : P10 - Burst left  3, Wait time 100, Turnaround time 117
+T115 : P10 - Burst left  2, Wait time 100, Turnaround time 117
+T116 : P10 - Burst left  1, Wait time 100, Turnaround time 117
+T117 : P11 - Burst left 14, Wait time 117, Turnaround time 131
+T118 : P11 - Burst left 13, Wait time 117, Turnaround time 131
+T119 : P11 - Burst left 12, Wait time 117, Turnaround time 131
+T120 : P11 - Burst left 11, Wait time 117, Turnaround time 131
+T121 : P11 - Burst left 10, Wait time 117, Turnaround time 131
+T122 : P11 - Burst left  9, Wait time 117, Turnaround time 131
+T123 : P11 - Burst left  8, Wait time 117, Turnaround time 131
+T124 : P11 - Burst left  7, Wait time 117, Turnaround time 131
+T125 : P11 - Burst left  6, Wait time 117, Turnaround time 131
+T126 : P11 - Burst left  5, Wait time 117, Turnaround time 131
+T127 : P11 - Burst left  4, Wait time 117, Turnaround time 131
+T128 : P11 - Burst left  3, Wait time 117, Turnaround time 131
+T129 : P11 - Burst left  2, Wait time 117, Turnaround time 131
+T130 : P11 - Burst left  1, Wait time 117, Turnaround time 131
+T131 : P12 - Burst left 10, Wait time 131, Turnaround time 141
+T132 : P12 - Burst left  9, Wait time 131, Turnaround time 141
+T133 : P12 - Burst left  8, Wait time 131, Turnaround time 141
+T134 : P12 - Burst left  7, Wait time 131, Turnaround time 141
+T135 : P12 - Burst left  6, Wait time 131, Turnaround time 141
+T136 : P12 - Burst left  5, Wait time 131, Turnaround time 141
+T137 : P12 - Burst left  4, Wait time 131, Turnaround time 141
+T138 : P12 - Burst left  3, Wait time 131, Turnaround time 141
+T139 : P12 - Burst left  2, Wait time 131, Turnaround time 141
+T140 : P12 - Burst left  1, Wait time 131, Turnaround time 141
+T141 : P13 - Burst left  1, Wait time 141, Turnaround time 142
+T142 : P14 - Burst left 13, Wait time 142, Turnaround time 155
+T143 : P14 - Burst left 12, Wait time 142, Turnaround time 155
+T144 : P14 - Burst left 11, Wait time 142, Turnaround time 155
+T145 : P14 - Burst left 10, Wait time 142, Turnaround time 155
+T146 : P14 - Burst left  9, Wait time 142, Turnaround time 155
+T147 : P14 - Burst left  8, Wait time 142, Turnaround time 155
+T148 : P14 - Burst left  7, Wait time 142, Turnaround time 155
+T149 : P14 - Burst left  6, Wait time 142, Turnaround time 155
+T150 : P14 - Burst left  5, Wait time 142, Turnaround time 155
+T151 : P14 - Burst left  4, Wait time 142, Turnaround time 155
+T152 : P14 - Burst left  3, Wait time 142, Turnaround time 155
+T153 : P14 - Burst left  2, Wait time 142, Turnaround time 155
+T154 : P14 - Burst left  1, Wait time 142, Turnaround time 155
+T155 : P15 - Burst left 16, Wait time 155, Turnaround time 171
+T156 : P15 - Burst left 15, Wait time 155, Turnaround time 171
+T157 : P15 - Burst left 14, Wait time 155, Turnaround time 171
+T158 : P15 - Burst left 13, Wait time 155, Turnaround time 171
+T159 : P15 - Burst left 12, Wait time 155, Turnaround time 171
+T160 : P15 - Burst left 11, Wait time 155, Turnaround time 171
+T161 : P15 - Burst left 10, Wait time 155, Turnaround time 171
+T162 : P15 - Burst left  9, Wait time 155, Turnaround time 171
+T163 : P15 - Burst left  8, Wait time 155, Turnaround time 171
+T164 : P15 - Burst left  7, Wait time 155, Turnaround time 171
+T165 : P15 - Burst left  6, Wait time 155, Turnaround time 171
+T166 : P15 - Burst left  5, Wait time 155, Turnaround time 171
+T167 : P15 - Burst left  4, Wait time 155, Turnaround time 171
+T168 : P15 - Burst left  3, Wait time 155, Turnaround time 171
+T169 : P15 - Burst left  2, Wait time 155, Turnaround time 171
+T170 : P15 - Burst left  1, Wait time 155, Turnaround time 171
+T171 : P16 - Burst left 12, Wait time 171, Turnaround time 183
+T172 : P16 - Burst left 11, Wait time 171, Turnaround time 183
+T173 : P16 - Burst left 10, Wait time 171, Turnaround time 183
+T174 : P16 - Burst left  9, Wait time 171, Turnaround time 183
+T175 : P16 - Burst left  8, Wait time 171, Turnaround time 183
+T176 : P16 - Burst left  7, Wait time 171, Turnaround time 183
+T177 : P16 - Burst left  6, Wait time 171, Turnaround time 183
+T178 : P16 - Burst left  5, Wait time 171, Turnaround time 183
+T179 : P16 - Burst left  4, Wait time 171, Turnaround time 183
+T180 : P16 - Burst left  3, Wait time 171, Turnaround time 183
+T181 : P16 - Burst left  2, Wait time 171, Turnaround time 183
+T182 : P16 - Burst left  1, Wait time 171, Turnaround time 183
+T183 : P17 - Burst left 13, Wait time 183, Turnaround time 196
+T184 : P17 - Burst left 12, Wait time 183, Turnaround time 196
+T185 : P17 - Burst left 11, Wait time 183, Turnaround time 196
+T186 : P17 - Burst left 10, Wait time 183, Turnaround time 196
+T187 : P17 - Burst left  9, Wait time 183, Turnaround time 196
+T188 : P17 - Burst left  8, Wait time 183, Turnaround time 196
+T189 : P17 - Burst left  7, Wait time 183, Turnaround time 196
+T190 : P17 - Burst left  6, Wait time 183, Turnaround time 196
+T191 : P17 - Burst left  5, Wait time 183, Turnaround time 196
+T192 : P17 - Burst left  4, Wait time 183, Turnaround time 196
+T193 : P17 - Burst left  3, Wait time 183, Turnaround time 196
+T194 : P17 - Burst left  2, Wait time 183, Turnaround time 196
+T195 : P17 - Burst left  1, Wait time 183, Turnaround time 196
+T196 : P18 - Burst left  9, Wait time 196, Turnaround time 205
+T197 : P18 - Burst left  8, Wait time 196, Turnaround time 205
+T198 : P18 - Burst left  7, Wait time 196, Turnaround time 205
+T199 : P18 - Burst left  6, Wait time 196, Turnaround time 205
+T200 : P18 - Burst left  5, Wait time 196, Turnaround time 205
+T201 : P18 - Burst left  4, Wait time 196, Turnaround time 205
+T202 : P18 - Burst left  3, Wait time 196, Turnaround time 205
+T203 : P18 - Burst left  2, Wait time 196, Turnaround time 205
+T204 : P18 - Burst left  1, Wait time 196, Turnaround time 205
+T205 : P19 - Burst left  6, Wait time 205, Turnaround time 211
+T206 : P19 - Burst left  5, Wait time 205, Turnaround time 211
+T207 : P19 - Burst left  4, Wait time 205, Turnaround time 211
+T208 : P19 - Burst left  3, Wait time 205, Turnaround time 211
+T209 : P19 - Burst left  2, Wait time 205, Turnaround time 211
+T210 : P19 - Burst left  1, Wait time 205, Turnaround time 211
+
+P0
+	Average waiting time:		
+	Average turnaround time:	3
+
+P1
+	Average waiting time:		3
+	Average turnaround time:	11
+
+P2
+	Average waiting time:		11
+	Average turnaround time:	12
+
+P3
+	Average waiting time:		12
+	Average turnaround time:	16
+
+P4
+	Average waiting time:		16
+	Average turnaround time:	28
+
+P5
+	Average waiting time:		28
+	Average turnaround time:	47
+
+P6
+	Average waiting time:		47
+	Average turnaround time:	62
+
+P7
+	Average waiting time:		62
+	Average turnaround time:	79
+
+P8
+	Average waiting time:		79
+	Average turnaround time:	82
+
+P9
+	Average waiting time:		82
+	Average turnaround time:	100
+
+P10
+	Average waiting time:		100
+	Average turnaround time:	117
+
+P11
+	Average waiting time:		117
+	Average turnaround time:	131
+
+P12
+	Average waiting time:		131
+	Average turnaround time:	141
+
+P13
+	Average waiting time:		141
+	Average turnaround time:	142
+
+P14
+	Average waiting time:		142
+	Average turnaround time:	155
+
+P15
+	Average waiting time:		155
+	Average turnaround time:	171
+
+P16
+	Average waiting time:		171
+	Average turnaround time:	183
+
+P17
+	Average waiting time:		183
+	Average turnaround time:	196
+
+P18
+	Average waiting time:		196
+	Average turnaround time:	205
+
+P19
+	Average waiting time:		205
+	Average turnaround time:	211
+
+Total average waiting time:	94.0
+Total average turnaround time:	104.6
+
+-- Shortest Job First --
+Shortest Job First
+-- Shortest Job First --
+Shortest Job First
+T0 : PØÛÅª  - Burst left  32682, Wait time  0, Turnaround time  1
+T1 : PøøÅª  - Burst left  32682, Wait time  1, Turnaround time  2
+T2 : P
+)ı  - Burst left  32765, Wait time  2, Turnaround time  5
+T5 : Pğ9 ª  - Burst left  32682, Wait time  5, Turnaround time  8
+T8 : PÈûÅª  - Burst left  32682, Wait time  8, Turnaround time  12
+T12 : PvÉª  - Burst left  32682, Wait time  12, Turnaround time  18
+T18 : P  - Burst left  0, Wait time  18, Turnaround time  26
+T26 : PH)ı  - Burst left  32765, Wait time  26, Turnaround time  35
+T35 : P  - Burst left  0, Wait time  35, Turnaround time  45
+T45 : P  - Burst left  0, Wait time  45, Turnaround time  57
+T57 : P€  - Burst left  32682, Wait time  57, Turnaround time  69
+T69 : P°jÉª  - Burst left  32682, Wait time  69, Turnaround time  82
+T82 : P  - Burst left  0, Wait time  82, Turnaround time  95
+T95 : P€)ı  - Burst left  32765, Wait time  95, Turnaround time  109
+T109 : P°jÉª  - Burst left  32682, Wait time  109, Turnaround time  124
+T124 : PÈÿÆª  - Burst left  32682, Wait time  124, Turnaround time  140
+T140 : PP)ı  - Burst left  32765, Wait time  140, Turnaround time  157
+T157 : P  - Burst left  0, Wait time  157, Turnaround time  174
+T174 : PvÉª  - Burst left  32682, Wait time  174, Turnaround time  192
+T192 : P  - Burst left  0, Wait time  192, Turnaround time  211
+
+PØÛÅª
+	Waiting time:           32682
+	Turnaround time:        1
+
+PøøÅª
+	Waiting time:           0
+	Turnaround time:        1
+
+P
+)ı
+	Waiting time:           0
+	Turnaround time:        3
+
+Pğ9 ª
+	Waiting time:           32682
+	Turnaround time:        3
+
+PÈûÅª
+	Waiting time:           32765
+	Turnaround time:        4
+
+PvÉª
+	Waiting time:           0
+	Turnaround time:        6
+
+P
+	Waiting time:           0
+	Turnaround time:        8
+
+PH)ı
+	Waiting time:           32682
+	Turnaround time:        9
+
+P
+	Waiting time:           32682
+	Turnaround time:        10
+
+P
+	Waiting time:           32682
+	Turnaround time:        12
+
+P€
+	Waiting time:           32765
+	Turnaround time:        12
+
+P°jÉª
+	Waiting time:           32682
+	Turnaround time:        13
+
+P
+	Waiting time:           32765
+	Turnaround time:        13
+
+P€)ı
+	Waiting time:           0
+	Turnaround time:        14
+
+P°jÉª
+	Waiting time:           32765
+	Turnaround time:        15
+
+PÈÿÆª
+	Waiting time:           0
+	Turnaround time:        16
+
+PP)ı
+	Waiting time:           32682
+	Turnaround time:        17
+
+P
+	Waiting time:           0
+	Turnaround time:        17
+
+PvÉª
+	Waiting time:           32682
+	Turnaround time:        18
+
+P
+	Waiting time:           0
+	Turnaround time:        19
+
+Total average waiting time:     67.6
+Total average turnaround time:  78.1
+
+-- Round Robin (Time Quantum 3) --
+Round Robin with quantum 3
+T3 : P0  - Burst left  0, Wait time  -5, Turnaround time  3
+
+-- Round Robin (Time Quantum 12) --
+Round Robin with quantum 12
+T3 : P0  - Burst left  0, Wait time  -5, Turnaround time  3
+
+Cleaning environment
+----------------------------
+rm -f assignment-4
+
+ASSIGNMENT 4 COMPLETED - Tue 21 Mar 2023 10:27:53 PM EDT
+
+Script done on 2023-03-21 22:27:53-04:00 [COMMAND_EXIT_CODE="0"]
