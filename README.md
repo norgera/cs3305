@@ -9,5 +9,4 @@ Assignment 2: Partition program to calculate large numbers.
 Assignment 3: Calculates the sum of prime numbers given command line perameters. 
               Uses threads to make multiple processes.
 
-Assignment 4: Simulated scheduling algorithms for CPU processes.
-Includes First Come First Served, and Round Robin w/ custom time quantums, and Shortest Job First.
+Assignment 4: Simulated scheduling algorithms for CPU processes. Includes First Come First Served, Round Robin w/ custom time quantums, and Shortest Job First.
