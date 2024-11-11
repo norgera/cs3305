@@ -10,3 +10,7 @@ Assignment 3: Calculates the sum of prime numbers given command line perameters.
               Uses threads to make multiple processes.
 
 Assignment 4: Simulated scheduling algorithms for CPU processes. Includes First Come First Served, Round Robin w/ custom time quantums, and Shortest Job First.
+
+
+Assignment 5: Multi-Threading and Mutual Exclusion Using Semaphores
+Scheduled trains taking passengers to/from different destinations/terminals with mutual exclusion to prevent deadlock occurence.
